@@ -6,7 +6,13 @@ header {
     margin: 0;
     padding: 0;
 }
-
+/* body 90% ik gebruik dit niet omdat ik het echt niet mooi vind op de pagina maar staat er wel in omdat dit normaal de opdracht was
+body{
+    max-width: 90%;
+    margin: auto;
+    background-color: black;
+}
+*/
 .introduction {
     background-image: url(../images/header.jpeg);
     background-position: center;
@@ -170,16 +176,15 @@ header {
 }
 
 .oplossingen {
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 200px;
-    padding-top: 50px;
-    padding-bottom: 150px;
-    box-sizing: 5px;
-    margin-right: 50px;
-    margin-left: 50px;
+    color : white;
+    display : flex;
+    justify-content : center;
+    text-align : center;
+    gap : 200px;
+    padding-top : 50px;
+    padding-bottom : 150px;
+    margin-right : 50px;
+    margin-left : 50px;
 }
 
 .oplossing {

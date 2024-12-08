@@ -31,15 +31,15 @@
             <div class="personen">
                 <div class="persoon">
                     <h2>Juha Schacht</h2>
-                    <img src="./resources/images/testpersoon.png" height="150" width="150">
+                    <img src="./resources/images/testpersoon.png" alt="persoon1" height="150" width="150">
                 </div>
                 <div class="persoon">
                     <h2>Arthur Brassaert</h2>
-                    <img src="./resources/images/testpersoon.png" height="150" width="150">
+                    <img src="./resources/images/testpersoon.png" alt="persoon2" height="150" width="150">
                 </div>
                 <div class="persoon">
                     <h2>Joe Boone</h2>
-                    <img src="./resources/images/testpersoon.png" height="150" width="150">
+                    <img src="./resources/images/testpersoon.png" alt="persoon3" height="150" width="150">
                 </div>
             </div>
         </div>
@@ -71,21 +71,21 @@
             <div class="oplossingen">
                 <div class="oplossing">
                     <h2>Waterbeheer</h2>
-                    <img src="./resources/images/waterbeheer.png" height="185" width="300">
+                    <img src="./resources/images/waterbeheer.png" alt="waterbeheer" height="185" width="300">
                     <p>IoT-sensoren kunnen waterstromen in rivieren, leidingen en reservoirs monitoren. Dit helpt bij
                         het opsporen van lekkages, het efficiënt beheren van watervoorraden en het voorkomen van
                         overstromingen in regenrijke gebieden.</p>
                 </div>
                 <div class="oplossing">
                     <h2>Slimme landbouw</h2>
-                    <img src="./resources/images/agricultuur.png" height="154" width="300">
+                    <img src="./resources/images/agricultuur.png" alt="agricultuur" height="154" width="300">
                     <p>Beschrijving: IoT-sensoren in de landbouw kunnen gegevens verzamelen over bodemvochtigheid,
                         temperatuur en weersomstandigheden. Dit maakt irrigatie efficiënter en voorkomt water- en
                         meststofverspilling.</p>
                 </div>
                 <div class="oplossing">
                     <h2>Energie-efficiente straatverlichting</h2>
-                    <img src="./resources/images/straatverlichting.png" height="168" width="300">
+                    <img src="./resources/images/straatverlichting.png" alt="straatverlichting" height="168" width="300">
                     <p>Slimme straatverlichting met IoT-functie kunnen hun helderheid aanpassen op basis van
                         omgevingsomstandigheden, zoals verkeer of natuurlijk licht. Dit helpt onnodig energieverbruik te
                         verminderen, de ecologische voetafdruk van stedelijke verlichtingssystemen te verkleinen en
@@ -136,25 +136,6 @@
             <p>&copy; 2024 Iot4Climate. Alle rechten voorbehouden.</p>
         </div>
         <div id="backToTop" class="back-to-top">↑ Terug naar boven</div>
+        <script src="./resources/js/script.js"></script>
 </body>
-<script>
-    // Wanneer word de knop getoond 
-    const backToTopButton = document.getElementById("backToTop");
-
-    window.addEventListener("scroll", function () {
-        if (window.scrollY > 200) { 
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    });
-
-    // Wat gebeurt er als je op de knop drukt.
-    backToTopButton.addEventListener("click", function () {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-</script>
 </html>
